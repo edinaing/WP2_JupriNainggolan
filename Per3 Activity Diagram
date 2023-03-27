@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T14:01:22.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="W-FvsZMEwCuaFfInmpMd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T14:16:38.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5FNv6NL5E3H5dWmYpoq4" version="21.1.1" type="github">
   <diagram name="Page-1" id="LV7JScz4CQnrHUQw8SUs">
-    <mxGraphModel>
+    <mxGraphModel dx="1723" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d8zPR20VTnNf4HZsuY71-4" value="ACTIVITY DIAGRAM PER 3" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="2100" height="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-5" value="Konsumen" style="swimlane;startSize=20;html=1;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-4">
+          <mxGeometry y="20" width="750" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-11" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry x="350" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-16" value="Datang Ke toko" style="html=1;whiteSpace=wrap;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry x="315" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.58" y="250" as="sourcePoint" />
+            <mxPoint x="369.58" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-23" value="Memberikan Daftar&lt;br&gt;Barang Yang Akan&lt;br&gt;Di Beli" style="html=1;whiteSpace=wrap;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry x="315" y="380" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="d8zPR20VTnNf4HZsuY71-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="920" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="d8zPR20VTnNf4HZsuY71-5" source="d8zPR20VTnNf4HZsuY71-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="90" as="sourcePoint" />
+            <mxPoint x="1075" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-6" value="Pegawai" style="swimlane;startSize=20;html=1;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-4">
+          <mxGeometry x="750" y="20" width="750" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-26" value="Pengecekan" style="html=1;whiteSpace=wrap;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-6">
+          <mxGeometry x="270" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-8" value="Pemimpin" style="swimlane;startSize=20;html=1;" vertex="1" parent="d8zPR20VTnNf4HZsuY71-4">
+          <mxGeometry x="1500" y="20" width="600" height="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="d8zPR20VTnNf4HZsuY71-27" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="725" y="435" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
