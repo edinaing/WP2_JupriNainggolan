@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T04:57:28.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="X7QqlTdkf7seMidsysd0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T05:12:41.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1BBPqV634zi3a8B5K-Hk" version="21.1.2" type="github">
   <diagram name="Page-1" id="fVYmeadzt1Yre5fPmC5P">
-    <mxGraphModel>
+    <mxGraphModel dx="3271" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-1" value="Laporan Permintaan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-2" value="Akses Gudang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="810" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-3" value="Menghubungi Supplier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-4" value="Membuat Purchase Order berdasarkan permintaan barang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1730" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-5" value="Arsip PO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-6" value="Akses Dokumen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="810" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-7" value="Akses Dokumen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-8" value="Menerbitkan Invoice" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-9" value="Laporan Pembelian" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-10" value="Laporan Transaksi" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="780" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-11" value="Akses Data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-12" value="Mengirim Barang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="790" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Lf9x5Pheo-ncBrLb5PwP-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1720" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-15" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="110" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-16" value="Accounting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1780" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf9x5Pheo-ncBrLb5PwP-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="210" width="20" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
